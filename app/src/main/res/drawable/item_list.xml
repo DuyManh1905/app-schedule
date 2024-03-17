@@ -1,0 +1,13 @@
+<!-- background_item.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Màu nền -->
+    <solid android:color="#FFFFFF" /> <!-- Đặt màu nền cho item, ở đây là màu trắng -->
+
+    <!-- Đường viền -->
+    <stroke
+        android:width="2dp"
+        android:color="#00FF00" />
+    <!-- Góc bo tròn -->
+    <corners android:radius="4dp" /> <!-- Bán kính góc bo tròn của item -->
+</shape>

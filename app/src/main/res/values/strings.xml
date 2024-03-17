@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="channel_description">Description</string>
+    <string name="dont_have_an_account"><![CDATA[Don\'t have an account? <font color="#00000f">Signup</font>]]></string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailScheduleActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:text="Hoc code Java"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="15dp"
+        android:background="@drawable/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:text="Saturday, Mei 28 2024"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="15dp"
+        android:background="@drawable/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="14dp"
+    android:textColor="#696969"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:text="Start time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:text="02 : 00 PM"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="20dp"
+        android:background="@drawable/item_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Start time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:text="02 : 00 PM"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="15dp"
+        android:background="@drawable/item_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:text="Learn Work"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="15dp"
+        android:background="@drawable/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnSaveTask"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="20dp"
+        android:text="Save Task"
+        android:background="@drawable/normal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

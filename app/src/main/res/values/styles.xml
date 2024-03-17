@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.Google" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/google_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
